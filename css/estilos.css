@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase|Port+Lligat+Sans');
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Cormorant+Unicase|Port+Lligat+Sans');
+body{
+  background-image: url(../imagenes/fondo.jpg);
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 960px;
+    background-color: #B0BEC5;
+    margin: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    font-family: 'Port Lligat Sans', sans-serif;
+}
+.logomenu{
+    display: table;
+    width: 960px;
+    position: fixed;
+    background-color: #42A5F5;
+}
+.nombre{
+    display: table;
+    float: left;
+}
+.nombre img{
+    width: 100px;
+    height: 100px;
+}
+.nombre h1{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px;
+    text-align: right;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 8px;    
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: black;
+    background-color: white;
+}
+.banner iframe{
+    margin-top: 100px;
+    
+}
+.slogan{
+    text-align: center;
+    font-family: 'Cormorant Unicase', serif;
+    
+}
+.slogan p{
+    color: linen;
+    font-size: 18px;
+}
+.nosotros{
+    display: flex;
+    justify-content:  space-around;
+}
+.nosotroscentrar{
+    text-align: center;
+    margin: 8px;
+    
+}
+.nosotroscentrar img{
+    width: 100px;
+    
+}
+.nosotroscentrar h3{
+    font-size: oblique;
+    
+}
+.nosotroscentrar p{
+    font-size: 12px;
+    
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
